@@ -32,8 +32,8 @@ app.use(cors({
 let port = process.env.PORT || 3000;
 
 app.listen("/", (req, res) => {
-    res.send("server is running")
-})
+    res.send("deploy successfully")
+    })
 
 app.use("/api/auth", authRouter)
 app.use("/api/user", userRouter)
