@@ -59,12 +59,11 @@ npm install
 Create .env file in /backend:
 
 PORT=8000
-MONGODB_URL=mongodb+srv://ahteshamrauf9_db_user:shami123@cluster0.lapyvzg.mongodb.net/Linkedin
-NODE_ENVIRONMENT=development
-JWT_SECRET=1uuueyyyyy34
-CLOUDINARY_CLOUD_NAME=do0x7qgxt
-CLOUDINARY_API_KEY=361532463871536
-CLOUDINARY_API_SECRET=oc_pbKKa2Gze7epLQlGQhC9VK0A
+MONGODB_URL=your url
+
+JWT_SECRET=add your secret key
+
+CLOUDINARY_API_SECRET=your secret key
 
 Run backend:
 npm run dev
